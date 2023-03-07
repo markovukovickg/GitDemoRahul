@@ -12,6 +12,7 @@ public class TestGsonExample {
         System.out.println();
         System.out.println(e1);
         System.out.println(e1.hasSkill("test automation"));
+        System.out.println();
         System.out.println(e1.hasSkill("security testing"));
         System.out.println();
 
@@ -19,6 +20,7 @@ public class TestGsonExample {
         String jsonEmployee1 = gsonExample.createEmployeeJsonObject(e1);
         String jsonEmployee3 = gsonExample.createEmployeeJsonObjectBuilder(e1);
 
+        System.out.println();
         System.out.println(jsonEmployee1);
         System.out.println();
         System.out.println(jsonEmployee3);
