@@ -11,7 +11,7 @@ public class TestGsonExample {
         e1.addSkill("performance testing");
         System.out.println();
         System.out.println(e1);
-        System.out.println(e1.hasSkill("test automation"));
+        System.out.println(e1.hasSkill("Browser automation"));
         System.out.println();
         System.out.println(e1.hasSkill("security testing"));
         System.out.println();
