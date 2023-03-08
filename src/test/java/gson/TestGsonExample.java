@@ -7,13 +7,13 @@ public class TestGsonExample {
         System.out.println(e1.getFullName());
         System.out.println(e1);
 
-        e1.addSkill("test automation");
-        e1.addSkill("performance testing");
+        e1.addSkill("Test automation");
+        e1.addSkill("Performance testing");
+        e1.addSkill("Appium");
         System.out.println();
         System.out.println(e1);
         System.out.println(e1.hasSkill("Browser automation"));
-        System.out.println();
-        System.out.println(e1.hasSkill("security testing"));
+        System.out.println(e1.hasSkill("Security testing"));
         System.out.println();
 
         GsonExample gsonExample = new GsonExample();
