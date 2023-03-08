@@ -8,11 +8,10 @@ public class TestGsonExample {
         System.out.println(e1);
 
         e1.addSkill("Test automation");
-        e1.addSkill("Performance testing");
-        e1.addSkill("Appium");
+        e1.addSkill("Performance");
         System.out.println();
         System.out.println(e1);
-        System.out.println(e1.hasSkill("Browser automation"));
+        System.out.println(e1.hasSkill("UI automation"));
         System.out.println(e1.hasSkill("Security testing"));
         System.out.println();
 
